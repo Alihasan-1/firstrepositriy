@@ -1,0 +1,46 @@
+
+.boder{
+    height: auto;
+    background: rgb(79, 85, 79);
+}
+
+.divn{
+    width: 50%;
+    background: grey;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 10px;
+    color: white;
+   
+
+}
+.divb{
+    width: 50%;
+    background: grey;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 10px;
+    color: white;
+}
+.back{
+    background:black;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+.wid{
+    width: 1000px;
+
+}
+.align{
+    text-align: center;
+}
+.gro{
+    background:white;
+}
+
+@media screen and (max-width:500px) {
+    .divb{
+        background: red;
+    }
+  }
